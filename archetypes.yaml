@@ -1,0 +1,86 @@
+archetypes:
+  - id: conservative_income
+    name: Conservative Income
+    description: Income-oriented advisors serving retirees and risk-sensitive households.
+    risk_tolerance: low
+    turnover: low
+    flow_persistence: high
+    preferred_asset_classes:
+      - fixed_income
+      - allocation
+    underweight_asset_classes:
+      - alternatives
+      - real_assets
+    gross_sales_bias: 0.85
+    redemption_sensitivity: 1.2
+  - id: balanced_planner
+    name: Balanced Planner
+    description: Diversified practitioners using model portfolios and steady rebalancing.
+    risk_tolerance: medium
+    turnover: low
+    flow_persistence: high
+    preferred_asset_classes:
+      - allocation
+      - fixed_income
+      - equity
+    underweight_asset_classes:
+      - alternatives
+    gross_sales_bias: 1.0
+    redemption_sensitivity: 1.0
+  - id: growth_allocator
+    name: Growth Allocator
+    description: Advisors leaning into long-term growth with higher equity participation.
+    risk_tolerance: medium_high
+    turnover: medium
+    flow_persistence: medium
+    preferred_asset_classes:
+      - equity
+      - allocation
+    underweight_asset_classes:
+      - fixed_income
+    gross_sales_bias: 1.15
+    redemption_sensitivity: 0.9
+  - id: active_trader
+    name: Active Trader
+    description: Faster-moving books with higher category rotation and sentiment sensitivity.
+    risk_tolerance: high
+    turnover: high
+    flow_persistence: low
+    preferred_asset_classes:
+      - equity
+      - alternatives
+    underweight_asset_classes:
+      - fixed_income
+    gross_sales_bias: 1.25
+    redemption_sensitivity: 1.15
+  - id: alternative_specialist
+    name: Alternative Specialist
+    description: Practices that incorporate diversifiers, hedged strategies, and real assets.
+    risk_tolerance: medium_high
+    turnover: medium
+    flow_persistence: medium
+    preferred_asset_classes:
+      - alternatives
+      - real_assets
+      - fixed_income
+    preferred_categories:
+      - market_neutral
+      - global_real_estate
+      - multisector_bond
+    underweight_asset_classes:
+      - allocation
+    gross_sales_bias: 1.05
+    redemption_sensitivity: 0.95
+  - id: fixed_income_specialist
+    name: Fixed Income Specialist
+    description: Bond-heavy practices with strong duration and income preferences.
+    risk_tolerance: low_medium
+    turnover: medium
+    flow_persistence: high
+    preferred_asset_classes:
+      - fixed_income
+    underweight_asset_classes:
+      - alternatives
+      - equity
+    gross_sales_bias: 0.95
+    redemption_sensitivity: 1.05

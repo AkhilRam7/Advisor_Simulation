@@ -1,0 +1,37 @@
+market_regimes:
+  - id: risk_on
+    name: Risk On
+    description: Broad equity rally, tightening spreads, and constructive risk appetite.
+    equity_return_level: strong
+    fixed_income_return_level: modest
+    credit_return_level: strong
+    real_asset_return_level: positive
+    flow_sentiment: pro_risk
+    volatility_level: low
+  - id: rate_shock
+    name: Rate Shock
+    description: Rising yields pressure duration assets while cyclicals and floating-rate credit hold up better.
+    equity_return_level: mixed
+    fixed_income_return_level: weak
+    credit_return_level: modest
+    real_asset_return_level: positive
+    flow_sentiment: defensive_rotation
+    volatility_level: medium
+  - id: risk_off
+    name: Risk Off
+    description: Equity drawdown, wider spreads, and a flight to quality into core bonds and cash-like exposures.
+    equity_return_level: weak
+    fixed_income_return_level: strong
+    credit_return_level: weak
+    real_asset_return_level: weak
+    flow_sentiment: defensive
+    volatility_level: high
+  - id: choppy_sideways
+    name: Choppy Sideways
+    description: Range-bound markets with mixed leadership and elevated advisor rebalancing activity.
+    equity_return_level: flat
+    fixed_income_return_level: flat
+    credit_return_level: flat
+    real_asset_return_level: mixed
+    flow_sentiment: neutral
+    volatility_level: medium

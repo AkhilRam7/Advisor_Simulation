@@ -1,0 +1,134 @@
+categories:
+  - id: us_large_blend
+    name: US Large Blend
+    asset_class: equity
+    region: us
+    style: core
+    risk_level: 4
+  - id: us_large_growth
+    name: US Large Growth
+    asset_class: equity
+    region: us
+    style: growth
+    risk_level: 5
+  - id: us_large_value
+    name: US Large Value
+    asset_class: equity
+    region: us
+    style: value
+    risk_level: 4
+  - id: us_mid_cap
+    name: US Mid-Cap Blend
+    asset_class: equity
+    region: us
+    style: core
+    risk_level: 5
+  - id: us_small_cap
+    name: US Small Cap
+    asset_class: equity
+    region: us
+    style: core
+    risk_level: 6
+  - id: foreign_large_blend
+    name: Foreign Large Blend
+    asset_class: equity
+    region: developed_ex_us
+    style: core
+    risk_level: 5
+  - id: diversified_emerging_markets
+    name: Diversified Emerging Markets
+    asset_class: equity
+    region: emerging_markets
+    style: core
+    risk_level: 6
+  - id: global_real_estate
+    name: Global Real Estate
+    asset_class: real_assets
+    region: global
+    style: income
+    risk_level: 5
+  - id: natural_resources
+    name: Natural Resources
+    asset_class: real_assets
+    region: global
+    style: inflation_sensitive
+    risk_level: 6
+  - id: us_intermediate_core_bond
+    name: US Intermediate Core Bond
+    asset_class: fixed_income
+    region: us
+    style: core
+    risk_level: 2
+  - id: us_short_term_bond
+    name: US Short-Term Bond
+    asset_class: fixed_income
+    region: us
+    style: defensive
+    risk_level: 1
+  - id: us_long_government_bond
+    name: US Long Government Bond
+    asset_class: fixed_income
+    region: us
+    style: duration
+    risk_level: 3
+  - id: high_yield_bond
+    name: High Yield Bond
+    asset_class: fixed_income
+    region: us
+    style: spread
+    risk_level: 4
+  - id: bank_loan
+    name: Bank Loan
+    asset_class: fixed_income
+    region: us
+    style: floating_rate
+    risk_level: 3
+  - id: emerging_markets_bond
+    name: Emerging Markets Bond
+    asset_class: fixed_income
+    region: emerging_markets
+    style: spread
+    risk_level: 4
+  - id: multisector_bond
+    name: Multisector Bond
+    asset_class: fixed_income
+    region: global
+    style: flexible
+    risk_level: 3
+  - id: allocation_30_50
+    name: Moderate Allocation
+    asset_class: allocation
+    region: global
+    style: balanced
+    risk_level: 3
+  - id: allocation_50_70
+    name: Aggressive Allocation
+    asset_class: allocation
+    region: global
+    style: growth
+    risk_level: 4
+  - id: target_date
+    name: Target-Date Blend
+    asset_class: allocation
+    region: global
+    style: outcome_oriented
+    risk_level: 3
+  - id: tactical_allocation
+    name: Tactical Allocation
+    asset_class: allocation
+    region: global
+    style: flexible
+    risk_level: 4
+  - id: options_trading
+    name: Options Trading
+    asset_class: alternatives
+    region: us
+    style: opportunistic
+    risk_level: 6
+  - id: market_neutral
+    name: Market Neutral
+    asset_class: alternatives
+    region: global
+    style: absolute_return
+    risk_level: 2
+
