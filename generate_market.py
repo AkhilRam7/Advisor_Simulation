@@ -66,28 +66,24 @@ REGIME_BASE_RETURNS: dict[str, dict[str, float]] = {
     "risk_on": {
         "equity": 0.014,
         "fixed_income": 0.003,
-        "real_assets": 0.009,
         "allocation": 0.008,
         "alternatives": 0.005,
     },
     "rate_shock": {
         "equity": 0.002,
         "fixed_income": -0.008,
-        "real_assets": 0.006,
         "allocation": -0.001,
         "alternatives": 0.001,
     },
     "risk_off": {
         "equity": -0.021,
         "fixed_income": 0.010,
-        "real_assets": -0.010,
         "allocation": -0.008,
         "alternatives": -0.003,
     },
     "choppy_sideways": {
         "equity": 0.002,
         "fixed_income": 0.001,
-        "real_assets": 0.001,
         "allocation": 0.0015,
         "alternatives": 0.001,
     },
@@ -96,7 +92,6 @@ REGIME_BASE_RETURNS: dict[str, dict[str, float]] = {
 ASSET_CLASS_VOLATILITY: dict[str, float] = {
     "equity": 0.042,
     "fixed_income": 0.016,
-    "real_assets": 0.038,
     "allocation": 0.022,
     "alternatives": 0.026,
 }

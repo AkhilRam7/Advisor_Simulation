@@ -10,7 +10,6 @@ archetypes:
       - allocation
     underweight_asset_classes:
       - alternatives
-      - real_assets
     gross_sales_bias: 0.85
     redemption_sensitivity: 1.2
   - id: balanced_planner
@@ -61,7 +60,6 @@ archetypes:
     flow_persistence: medium
     preferred_asset_classes:
       - alternatives
-      - real_assets
       - fixed_income
     preferred_categories:
       - market_neutral

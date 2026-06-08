@@ -43,13 +43,13 @@ categories:
     risk_level: 6
   - id: global_real_estate
     name: Global Real Estate
-    asset_class: real_assets
+    asset_class: alternatives
     region: global
     style: income
     risk_level: 5
   - id: natural_resources
     name: Natural Resources
-    asset_class: real_assets
+    asset_class: alternatives
     region: global
     style: inflation_sensitive
     risk_level: 6
@@ -131,4 +131,3 @@ categories:
     region: global
     style: absolute_return
     risk_level: 2
-

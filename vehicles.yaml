@@ -1,0 +1,47 @@
+vehicles:
+  - id: mutual_fund
+    name: Mutual Fund
+    eligible_asset_classes:
+      - equity
+      - fixed_income
+      - allocation
+      - alternatives
+    default_weight: 0.42
+    liquidity: daily
+  - id: etf
+    name: ETF
+    eligible_asset_classes:
+      - equity
+      - fixed_income
+      - allocation
+      - alternatives
+    default_weight: 0.28
+    liquidity: intraday
+  - id: sma
+    name: Separately Managed Account
+    eligible_asset_classes:
+      - equity
+      - fixed_income
+      - allocation
+    default_weight: 0.12
+    liquidity: daily
+  - id: cit
+    name: Collective Investment Trust
+    eligible_asset_classes:
+      - fixed_income
+      - allocation
+    default_weight: 0.08
+    liquidity: daily
+  - id: variable_annuity
+    name: Variable Annuity
+    eligible_asset_classes:
+      - fixed_income
+      - allocation
+    default_weight: 0.06
+    liquidity: policy_based
+  - id: interval_fund
+    name: Interval Fund
+    eligible_asset_classes:
+      - alternatives
+    default_weight: 0.04
+    liquidity: interval

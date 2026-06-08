@@ -67,7 +67,6 @@ VOLATILITY_REDEMPTION_MULTIPLIERS: dict[str, float] = {
 ASSET_CLASS_GROSS_TILTS: dict[str, float] = {
     "equity": 1.06,
     "fixed_income": 0.97,
-    "real_assets": 0.98,
     "allocation": 1.01,
     "alternatives": 0.82,
 }
@@ -75,7 +74,6 @@ ASSET_CLASS_GROSS_TILTS: dict[str, float] = {
 ASSET_CLASS_REDEMPTION_TILTS: dict[str, float] = {
     "equity": 1.02,
     "fixed_income": 0.96,
-    "real_assets": 1.03,
     "allocation": 0.98,
     "alternatives": 1.08,
 }
@@ -361,7 +359,9 @@ def build_monthly_flows(
 
 def write_csv(df: pd.DataFrame, output_path: Path) -> None:
     output_path.parent.mkdir(parents=True, exist_ok=True)
-    df.to_csv(output_path, index=False)
+    temp_path = output_path.with_suffix(output_path.suffix + ".tmp")
+    df.to_csv(temp_path, index=False)
+    temp_path.replace(output_path)
 
 
 def main() -> None:
